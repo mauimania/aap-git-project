@@ -1,7 +1,11 @@
 ---
 all:
   hosts:
-    ubuntu-host:
-      ansible_host: 192.168.1.6
-    centos-host:
-      ansible_host: 192.168.1.18
+    rhel92node:
+      ansible_host: 192.168.192.231
+    rhel94node:
+      ansible_host: 192.168.192.232
+    ubuntu22node:
+      ansible_host: 192.168.192.233
+    ubuntu24node:
+      ansible_host: 192.168.192.234
