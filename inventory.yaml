@@ -8,4 +8,6 @@ all:
     ubuntu22node:
       ansible_host: 192.168.192.233
     ubuntu24node:
-      ansible_host: 192.168.192.234
+      ansible_host: 192.168.192.234    
+    centos85ansible:
+      ansible_host: 192.168.192.243
